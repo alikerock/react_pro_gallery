@@ -170,11 +170,8 @@ export default function Gallery() {
 
   // The options of the gallery (from the playground current state)
   const options = {
-    layoutParams: {
-      structure: {
-        galleryLayout: 1,
-      }
-    },
+    galleryLayout: 2, // 원하는 레이아웃 번호로 설정
+    // 기타 옵션들
   };
 
   // The size of the gallery container. The images will fit themselves in it
